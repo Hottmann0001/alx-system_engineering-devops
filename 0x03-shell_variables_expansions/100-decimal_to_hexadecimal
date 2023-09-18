@@ -1,2 +1,2 @@
 #!/bin/bash
-tr 'A-Za-z' 'N-ZA-Mn-za-m'
+echo "ibase=10; obase=16; $DECIMAL" | bc
